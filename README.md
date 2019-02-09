@@ -22,11 +22,11 @@
 
 ### 技术
 #### SDK
-目前所有的Dapp均采用Scatter提供的SDK与区块链交互。协会钱包也实现了Scatter几乎所有的API接口。但不同于Scatter的socket通信方案，协会钱包与Dapp的交互采用iframe间消息通信的方案实现（受限于ionic技术本身）。
+目前所有的Dapp均采用Scatter提供的SDK与区块链交互[官方文档](https://get-scatter.com/docs/getting-started)。协会钱包实现了Scatter几乎所有的[API接口](https://github.com/Blockchain-zju/zjubca.wallet#scatter-api-%E5%85%BC%E5%AE%B9scatterjs)。不同于Scatter的socket通信方案，协会钱包与Dapp的交互采用iframe间消息通信的方案实现（受限于ionic技术本身），但对应用层来说开发体验一致。
 
 为了减轻Dapp开发者的负担，做到**code once, run everywhere**，我们专门对主流桌面钱包Scatter的SDK进行了二次开发。
 
-**IMPORTANT!!!! 请Dapp开发者务必使用[zjubca-scatter-js](https://github.com/Blockchain-zju/zjubca-scatter-js)作为Dapp与区块链交互的SDK。** 如此可实现兼容协会钱包与市面上所有实现了Scatter接口的主流钱包。 目前已实现的[Scatter接口](https://github.com/Blockchain-zju/zjubca.wallet#scatter-api-%E5%85%BC%E5%AE%B9scatterjs)，可基本满足主流的Dapp交互需求。
+**IMPORTANT!!!! 请Dapp开发者务必使用[zjubca-scatter-js](https://github.com/Blockchain-zju/zjubca-scatter-js)作为Dapp与区块链交互的SDK。** 如此可实现兼容协会钱包与市面上所有实现了Scatter接口的主流钱包。
 
 #### 框架
 考虑到Dapp的复杂度及开发周期，为了统一协会内技术栈，降低协会开发者开发成本，我们优先推荐[vue.js](https://cn.vuejs.org/)。
