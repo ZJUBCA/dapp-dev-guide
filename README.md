@@ -24,7 +24,7 @@
 
 ### 技术
 #### SDK
-目前所有的Dapp均采用Scatter提供的SDK与区块链交互[官方文档](https://get-scatter.com/docs/getting-started)。协会钱包实现了Scatter几乎所有的[API接口](https://github.com/Blockchain-zju/zjubca.wallet#scatter-api-%E5%85%BC%E5%AE%B9scatterjs)。不同于Scatter的socket通信方案，协会钱包与Dapp的交互采用iframe间消息通信的方案实现（受限于ionic技术本身），但对应用层来说开发体验一致。
+目前所有的Dapp均采用Scatter提供的SDK与区块链交互[官方文档](https://get-scatter.com/docs/getting-started)。协会钱包实现了Scatter几乎所有的[API接口](https://github.com/Blockchain-zju/zjubca.wallet#scatter-api-support-scatterjs)。不同于Scatter的socket通信方案，协会钱包与Dapp的交互采用iframe间消息通信的方案实现（受限于ionic技术本身），但对应用层来说开发体验一致。
 
 为了减轻Dapp开发者的负担，做到**code once, run everywhere**，我们专门对主流桌面钱包Scatter的SDK进行了二次开发。
 
