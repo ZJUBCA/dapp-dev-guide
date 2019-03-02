@@ -60,6 +60,8 @@
 ### 合约安全
 常见的合约攻击手段须避开。参考[智能合约攻击方式汇总](https://mp.weixin.qq.com/s?__biz=MzU1NDc3NDI5MQ==&mid=2247484619&idx=1&sn=1b3c2817487b52e5c68c06fbade72bb8&chksm=fbdf3eb7cca8b7a17daefa6ca01700a2df9afc0c0b697693f93d8194d4c6077b0ba0ab1b0a45&mpshare=1&scene=1&srcid=1110ESYf047WrCIqSVs1hRk7#rd)
 
+- [EOS合约安全开发指南](https://github.com/slowmist/eos-smart-contract-security-best-practices)
+
 ## 案例
 - [zjubca.vote](https://github.com/Blockchain-zju/zjubca.vote)
 
