@@ -65,6 +65,17 @@
 
 - [EOS合约安全开发指南](https://github.com/slowmist/eos-smart-contract-security-best-practices)
 
+## 部署
+为了规范Dapp部署流程，降低开发和硬件成本，我们建议使用Github page进行部署。
+
+1. 在项目中安装[gh-pages](https://github.com/tschaub/gh-pages)
+2. 在`package.json`的`scripts`字段中增加`"predeploy: npm run build"`的命令（假如本地编译命令为`npm run build`)
+3. 在`package.json`的`scripts`字段中增加`"deploy:gh-pages -d <your build dir>"`
+4. 之后每次部署只需运行`npm run deploy`即可。
+5. 前往仓库的setting下配置github page，source branch选择`gh-pages`。
+
+**注：当配置了自定义域名时，会在`gh-pages`下生成CNAME文件。但由于每次部署是强制push，会导致CNAME丢失，因此建议将CNAME文件放至项目目录，每次部署时将CNAME自动拷贝到`<your build dir>`文件下**
+
 ## 案例
 - [zjubca.vote](https://github.com/Blockchain-zju/zjubca.vote)
 
