@@ -31,7 +31,7 @@
 
 **IMPORTANT!!!! 请Dapp开发者务必使用[zjubca-scatter-js](https://github.com/Blockchain-zju/zjubca-scatter-js)作为Dapp与区块链交互的SDK。** 如此可实现兼容协会钱包与市面上所有实现了Scatter接口的主流钱包。
 
-对于eos.js的版本选择，我们**建议使用稳定的[v16.0.9](https://github.com/EOSIO/eosjs/tree/v16.0.9)**。
+对于eos.js的版本选择，我们**建议使用最新的[v20.0.0](https://github.com/EOSIO/eosjs)**。
 
 #### 框架
 考虑到Dapp的复杂度及开发周期，为了统一协会内技术栈，降低协会开发者开发成本，我们优先推荐[vue.js](https://cn.vuejs.org/)。
